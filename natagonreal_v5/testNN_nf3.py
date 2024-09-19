@@ -23,3 +23,4 @@ if __name__== "__main__":
     print("New Output data: ")
     print(neural_network.think(np.array([user_input_one, user_input_two, user_input_three])))
     print("W O W we did it !!!")
+    # มีทศนิยม เลือกเลข 3 ตัว

@@ -1,5 +1,5 @@
 import numpy as np
-from neuralnetwork import NeuralNetwork
+from neuralnetwork_np_round import NeuralNetwork
 
 if __name__== "__main__":
 
@@ -22,6 +22,6 @@ if __name__== "__main__":
 
     print("Considering New Situation:", user_input_one, user_input_two)
     print("New Output data: ")
-    print(neural_network.think(np.array([user_input_one, user_input_two])))
+    print(np.round(neural_network.think(np.array([user_input_one, user_input_two]))))
     print("W O W we did it !!!")
-    # มีทศนิยม เลือกเลข 2 ตัว
+    # ทำให้ทศนิยมปัดขึ้น
